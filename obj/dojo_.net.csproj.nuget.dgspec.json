@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\universidad\\Empresariales\\dojo_.net\\dojo_.net.csproj": {}
+  },
+  "projects": {
+    "D:\\universidad\\Empresariales\\dojo_.net\\dojo_.net.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\universidad\\Empresariales\\dojo_.net\\dojo_.net.csproj",
+        "projectName": "dojo_.net",
+        "projectPath": "D:\\universidad\\Empresariales\\dojo_.net\\dojo_.net.csproj",
+        "packagesPath": "C:\\Users\\eduardo.velasquezv\\.nuget\\packages\\",
+        "outputPath": "D:\\universidad\\Empresariales\\dojo_.net\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eduardo.velasquezv\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Google.Cloud.Firestore": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
